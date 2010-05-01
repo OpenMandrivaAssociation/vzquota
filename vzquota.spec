@@ -5,6 +5,7 @@ Release: %mkrel 2
 License: GPLv2
 Group: System/Kernel and hardware
 Source: http://download.openvz.org/utils/%{name}/%{version}/src/%{name}-%{version}.tar.bz2
+Patch0: vzquota-3.0.12-fixbuild.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: http://openvz.org/
 
@@ -14,6 +15,7 @@ for Virtuozzo/OpenVZ containers.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %make
