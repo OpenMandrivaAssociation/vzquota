@@ -1,0 +1,12 @@
+--- vzquota-3.0.11.orig/src/vzdqload.c
++++ vzquota-3.0.11/src/vzdqload.c
+@@ -20,7 +20,9 @@
+ #include <sys/types.h>
+
+ /* to include vsscanf() */
++#ifndef __USE_ISOC99
+ #define __USE_ISOC99
++#endif
+ #include <stdio.h>
+
+ #include <stdlib.h>
