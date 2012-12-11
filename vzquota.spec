@@ -38,3 +38,22 @@ rm -rf $RPM_BUILD_ROOT
 %attr(644,root,root) %{_mandir}/man8/vzdqcheck.8*
 %attr(644,root,root) %{_mandir}/man8/vzdqdump.8*
 %attr(644,root,root) %{_mandir}/man8/vzdqload.8*
+
+
+%changelog
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 3.0.12-3mdv2011.0
++ Revision: 615422
+- the mass rebuild of 2010.1 packages
+
+* Sat May 01 2010 Funda Wang <fwang@mandriva.org> 3.0.12-2mdv2010.1
++ Revision: 541416
+- fix build
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Wed Feb 04 2009 Jérôme Soyer <saispo@mandriva.org> 3.0.12-1mdv2009.1
++ Revision: 337525
+- import vzquota
+
+
