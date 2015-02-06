@@ -1,7 +1,7 @@
 Summary: Virtuozzo/OpenVZ disk quota control utility
 Name: vzquota
 Version: 3.0.12
-Release: %mkrel 3
+Release: 4
 License: GPLv2
 Group: System/Kernel and hardware
 Source: http://download.openvz.org/utils/%{name}/%{version}/src/%{name}-%{version}.tar.bz2
