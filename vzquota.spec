@@ -7,7 +7,7 @@ Group: System/Kernel and hardware
 Source: http://download.openvz.org/utils/%{name}/%{version}/src/%{name}-%{version}.tar.bz2
 Patch0: vzquota-3.0.12-fixbuild.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-URL: http://openvz.org/
+URL: https://openvz.org/
 
 %description
 This utility allows system administator to control disk quotas
