@@ -9,6 +9,7 @@ Patch0: vzquota-3.0.12-fixbuild.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: https://openvz.org/
 
+BuildRequires:	make
 %description
 This utility allows system administator to control disk quotas
 for Virtuozzo/OpenVZ containers.
